@@ -1,0 +1,300 @@
+
+hi@hi-PC MINGW64 /d/study (master)
+$ ls
+HTML/  readme.txt
+
+hi@hi-PC MINGW64 /d/study (master)
+$ git status
+On branch master
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        HTML/
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+hi@hi-PC MINGW64 /d/study (master)
+$ git add *
+
+hi@hi-PC MINGW64 /d/study (master)
+$ git commit -m "hello project"
+[master 13e713b] hello project
+ 1 file changed, 1 insertion(+)
+ create mode 100644 HTML/HELLO_WORD.HTML
+
+hi@hi-PC MINGW64 /d/study (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+hi@hi-PC MINGW64 /d/study (master)
+$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+        modified:   HTML/HELLO_WORD.HTML
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+hi@hi-PC MINGW64 /d/study (master)
+$ git add*
+git: 'add*' is not a git command. See 'git --help'.
+
+Did you mean this?
+        add
+
+hi@hi-PC MINGW64 /d/study (master)
+$ git commit -m "hello project"
+On branch master
+Changes not staged for commit:
+        modified:   HTML/HELLO_WORD.HTML
+
+no changes added to commit
+
+hi@hi-PC MINGW64 /d/study (master)
+$ git commit -m "1072 time"
+On branch master
+Changes not staged for commit:
+        modified:   HTML/HELLO_WORD.HTML
+
+no changes added to commit
+
+hi@hi-PC MINGW64 /d/study (master)
+$ git add*
+git: 'add*' is not a git command. See 'git --help'.
+
+Did you mean this?
+        add
+
+hi@hi-PC MINGW64 /d/study (master)
+$ git commit -m "time"
+On branch master
+Changes not staged for commit:
+        modified:   HTML/HELLO_WORD.HTML
+
+no changes added to commit
+
+hi@hi-PC MINGW64 /d/study (master)
+$ git log
+commit 13e713b68a364d6ab60334b6e3ed4128dfd6fb3d
+Author: limjinkeong <wlsruddl56@naver.com>
+Date:   Wed Jan 11 15:43:26 2017 +0900
+
+    hello project
+
+commit ee9f6c1133cbc06426b6dc6a2ec049db42938010
+Author: limjinkeong <wlsruddl56@naver.com>
+Date:   Wed Jan 11 15:13:10 2017 +0900
+
+    second commit
+
+commit 337a2e7a213f6678a8804af70f267ef1db7a1756
+Author: limjinkeong <wlsruddl56@naver.com>
+Date:   Wed Jan 11 15:07:42 2017 +0900
+
+    first commit
+
+hi@hi-PC MINGW64 /d/study (master)
+$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+        modified:   HTML/HELLO_WORD.HTML
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+hi@hi-PC MINGW64 /d/study (master)
+$ git add*
+git: 'add*' is not a git command. See 'git --help'.
+
+Did you mean this?
+        add
+
+hi@hi-PC MINGW64 /d/study (master)
+$ git commit -m "hello project"
+On branch master
+Changes not staged for commit:
+        modified:   HTML/HELLO_WORD.HTML
+
+no changes added to commit
+
+hi@hi-PC MINGW64 /d/study (master)
+$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+        modified:   HTML/HELLO_WORD.HTML
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+hi@hi-PC MINGW64 /d/study (master)
+$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+        modified:   HTML/HELLO_WORD.HTML
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+hi@hi-PC MINGW64 /d/study (master)
+$ git add*
+git: 'add*' is not a git command. See 'git --help'.
+
+Did you mean this?
+        add
+
+hi@hi-PC MINGW64 /d/study (master)
+$ git commit -m "HELLO_WORD"
+On branch master
+Changes not staged for commit:
+        modified:   HTML/HELLO_WORD.HTML
+
+no changes added to commit
+
+hi@hi-PC MINGW64 /d/study (master)
+$ git log
+commit 13e713b68a364d6ab60334b6e3ed4128dfd6fb3d
+Author: limjinkeong <wlsruddl56@naver.com>
+Date:   Wed Jan 11 15:43:26 2017 +0900
+
+    hello project
+
+commit ee9f6c1133cbc06426b6dc6a2ec049db42938010
+Author: limjinkeong <wlsruddl56@naver.com>
+Date:   Wed Jan 11 15:13:10 2017 +0900
+
+    second commit
+
+commit 337a2e7a213f6678a8804af70f267ef1db7a1756
+Author: limjinkeong <wlsruddl56@naver.com>
+Date:   Wed Jan 11 15:07:42 2017 +0900
+
+    first commit
+
+hi@hi-PC MINGW64 /d/study (master)
+$ git add *
+
+hi@hi-PC MINGW64 /d/study (master)
+$ git commit -m "HELLO_WORD"
+[master e2e251a] HELLO_WORD
+ 1 file changed, 19 insertions(+), 1 deletion(-)
+
+hi@hi-PC MINGW64 /d/study (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+hi@hi-PC MINGW64 /d/study (master)
+$ git log
+commit e2e251a4b38a172c9b4698aa40d1c63b35af2c53
+Author: limjinkeong <wlsruddl56@naver.com>
+Date:   Wed Jan 11 16:20:08 2017 +0900
+
+    HELLO_WORD
+
+commit 13e713b68a364d6ab60334b6e3ed4128dfd6fb3d
+Author: limjinkeong <wlsruddl56@naver.com>
+Date:   Wed Jan 11 15:43:26 2017 +0900
+
+    hello project
+
+commit ee9f6c1133cbc06426b6dc6a2ec049db42938010
+Author: limjinkeong <wlsruddl56@naver.com>
+Date:   Wed Jan 11 15:13:10 2017 +0900
+
+    second commit
+
+commit 337a2e7a213f6678a8804af70f267ef1db7a1756
+Author: limjinkeong <wlsruddl56@naver.com>
+Date:   Wed Jan 11 15:07:42 2017 +0900
+
+    first commit
+
+hi@hi-PC MINGW64 /d/study (master)
+$ git remote add origin https://github.com/limjinkeong/wlsruddl56.git
+
+hi@hi-PC MINGW64 /d/study (master)
+$ git push -u origin master
+Counting objects: 14, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (7/7), done.
+Writing objects: 100% (14/14), 1.18 KiB | 0 bytes/s, done.
+Total 14 (delta 0), reused 0 (delta 0)
+To https://github.com/limjinkeong/wlsruddl56.git
+ * [new branch]      master -> master
+Branch master set up to track remote branch master from origin.
+
+hi@hi-PC MINGW64 /d/study (master)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+        modified:   HTML/HELLO_WORD.HTML
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+hi@hi-PC MINGW64 /d/study (master)
+$ git add *
+
+hi@hi-PC MINGW64 /d/study (master)
+$ git commit -m "HELLO_WORD"
+[master 5dad8c8] HELLO_WORD
+ 1 file changed, 1 insertion(+)
+
+hi@hi-PC MINGW64 /d/study (master)
+$ git status
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+nothing to commit, working tree clean
+
+hi@hi-PC MINGW64 /d/study (master)
+$ git push
+Counting objects: 4, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (4/4), 397 bytes | 0 bytes/s, done.
+Total 4 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local objects.
+To https://github.com/limjinkeong/wlsruddl56.git
+   e2e251a..5dad8c8  master -> master
+
+hi@hi-PC MINGW64 /d/study (master)
+$ git add*
+git: 'add*' is not a git command. See 'git --help'.
+
+Did you mean this?
+        add
+
+hi@hi-PC MINGW64 /d/study (master)
+$ git add *
+
+hi@hi-PC MINGW64 /d/study (master)
+$ git commit -m "HELLO_WORD"
+[master 2197eb6] HELLO_WORD
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+hi@hi-PC MINGW64 /d/study (master)
+$ git push
+Counting objects: 4, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (4/4), 377 bytes | 0 bytes/s, done.
+Total 4 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local objects.
+To https://github.com/limjinkeong/wlsruddl56.git
+   5dad8c8..2197eb6  master -> master
+
+hi@hi-PC MINGW64 /d/study (master)
+$

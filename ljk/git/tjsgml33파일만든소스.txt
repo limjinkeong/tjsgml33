@@ -1,0 +1,175 @@
+
+hi@hi-PC MINGW64 /c/smart
+$ ls
+ljk/
+
+hi@hi-PC MINGW64 /c/smart
+$ dir
+ljk
+
+hi@hi-PC MINGW64 /c/smart
+$ ls -al
+total 12
+drwxr-xr-x 1 hi 197121 0 Jan 11 14:43 ./
+drwxr-xr-x 1 hi 197121 0 Jan 11 15:25 ../
+drwxr-xr-x 1 hi 197121 0 Jan 11 14:43 ljk/
+
+hi@hi-PC MINGW64 /c/smart
+$ git init
+Initialized empty Git repository in C:/smart/.git/
+
+hi@hi-PC MINGW64 /c/smart (master)
+$ git add *
+
+hi@hi-PC MINGW64 /c/smart (master)
+$ git commit -m "one"
+[master (root-commit) 7c22bdc] one
+ 1 file changed, 48 insertions(+)
+ create mode 100644 "ljk/\354\243\274\354\206\214.txt"
+
+hi@hi-PC MINGW64 /c/smart (master)
+$ git log
+commit 7c22bdc945c5812540a30c7357bc708d545a0d8c
+Author: limjinkeong <wlsruddl56@naver.com>
+Date:   Thu Jan 12 17:47:18 2017 +0900
+
+    one
+
+hi@hi-PC MINGW64 /c/smart (master)
+$ git push
+fatal: No configured push destination.
+Either specify the URL from the command-line or configure a remote repository using
+
+    git remote add <name> <url>
+
+and then push using the remote name
+
+    git push <name>
+
+
+hi@hi-PC MINGW64 /c/smart (master)
+$ git config -- global user.email "wlsruddl56@naver.com"
+error: key does not contain a section: global
+
+hi@hi-PC MINGW64 /c/smart (master)
+$ ^C
+
+hi@hi-PC MINGW64 /c/smart (master)
+$ ^C
+
+hi@hi-PC MINGW64 /c/smart (master)
+$ git config -- global user.email "wlsruddl56@naver.com"
+error: key does not contain a section: global
+
+hi@hi-PC MINGW64 /c/smart (master)
+$ git config --global user.email "wlsruddl56@naver.com"
+
+hi@hi-PC MINGW64 /c/smart (master)
+$ git config --global user.name "limjinkeong"
+
+hi@hi-PC MINGW64 /c/smart (master)
+$ git commit -m "one"
+On branch master
+nothing to commit, working tree clean
+
+hi@hi-PC MINGW64 /c/smart (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+hi@hi-PC MINGW64 /c/smart (master)
+$ git remote add origin https://github.com/limjinkeong/tjsgml33.git
+
+hi@hi-PC MINGW64 /c/smart (master)
+$ git push -u origin master
+Counting objects: 4, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (4/4), 828 bytes | 0 bytes/s, done.
+Total 4 (delta 0), reused 0 (delta 0)
+To https://github.com/limjinkeong/tjsgml33.git
+ * [new branch]      master -> master
+Branch master set up to track remote branch master from origin.
+
+hi@hi-PC MINGW64 /c/smart (master)
+$ git remote add origin https://github.com/limjinkeong/tjsgml33.git
+fatal: remote origin already exists.
+
+hi@hi-PC MINGW64 /c/smart (master)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+        modified:   "ljk/\354\243\274\354\206\214.txt"
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+hi@hi-PC MINGW64 /c/smart (master)
+$ git add *
+
+hi@hi-PC MINGW64 /c/smart (master)
+$ git commit -m "two"
+[master b394491] two
+ 1 file changed, 4 insertions(+)
+
+hi@hi-PC MINGW64 /c/smart (master)
+$ git add *
+
+hi@hi-PC MINGW64 /c/smart (master)
+$ git commit -m "one"
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+nothing to commit, working tree clean
+
+hi@hi-PC MINGW64 /c/smart (master)
+$ git status
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+nothing to commit, working tree clean
+
+hi@hi-PC MINGW64 /c/smart (master)
+$ git add *
+
+hi@hi-PC MINGW64 /c/smart (master)
+$ git commit -m "two"
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+nothing to commit, working tree clean
+
+hi@hi-PC MINGW64 /c/smart (master)
+$ git status
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+nothing to commit, working tree clean
+
+hi@hi-PC MINGW64 /c/smart (master)
+$ git add *
+
+hi@hi-PC MINGW64 /c/smart (master)
+$ git commit -m "two"
+[master 138cad0] two
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+hi@hi-PC MINGW64 /c/smart (master)
+$ git push
+Counting objects: 8, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (8/8), 627 bytes | 0 bytes/s, done.
+Total 8 (delta 2), reused 0 (delta 0)
+remote: Resolving deltas: 100% (2/2), completed with 1 local objects.
+To https://github.com/limjinkeong/tjsgml33.git
+   7c22bdc..138cad0  master -> master
+
+hi@hi-PC MINGW64 /c/smart (master)
+$ ^C
+
+hi@hi-PC MINGW64 /c/smart (master)
+$
